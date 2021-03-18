@@ -180,5 +180,4 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'azure_graph_rbac', "~>#{gem_versions['data']['azure_graph_rbac']}"
   spec.add_runtime_dependency 'azure_key_vault', "~>#{gem_versions['data']['azure_key_vault']}"
   spec.add_runtime_dependency 'azure_service_fabric', "~>#{gem_versions['data']['azure_service_fabric']}"
-  spec.add_runtime_dependency 'azure-storage', '~>0.15.0.preview'
 end
